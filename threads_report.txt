@@ -1,0 +1,19 @@
+Attach Listener@448 daemon, prio=5, in group 'system', status: 'RUNNING'
+
+Signal Dispatcher@449 daemon, prio=9, in group 'system', status: 'RUNNING'
+
+Finalizer@450 daemon, prio=8, in group 'system', status: 'WAIT'
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:142)
+	  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:158)
+	  at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)
+
+Reference Handler@451 daemon, prio=10, in group 'system', status: 'WAIT'
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Object.wait(Object.java:502)
+	  at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:157)
+
+main@1, prio=5, in group 'main', status: 'RUNNING'
+	  at com.javarush.test.level15.lesson12.home08.Solution$B.<init>(Solution.java:32)
+	  at com.javarush.test.level15.lesson12.home08.Solution.main(Solution.java:12)
+
